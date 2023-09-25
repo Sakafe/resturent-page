@@ -1,0 +1,42 @@
+.blogs .box-container .box{
+    text-align: center;
+    padding: 3rem 2rem;
+    border: 0.2rem solid #ffc107;
+}
+.blogs .box-container .box .image{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    padding: 2.5rem 6rem;
+}
+.blogs .box-container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blogs .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+.blogs .box-container .box .content{
+    padding: 2rem;
+}
+.blogs .box-container .box .content .title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.blogs .box-container .box .content .title:hover{
+  color: #ffc107;
+}
+.blogs .box-container .box .content span{
+    color: #ffc107;
+    padding-top: 1rem;
+    font-size: 2rem;
+    display: block;
+}
+.blogs .box-container .box .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #ccc;
+}

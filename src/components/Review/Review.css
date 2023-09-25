@@ -1,0 +1,35 @@
+.reviews .box-container .box{
+    text-align: center;
+    padding: 3rem 2rem;
+    border: 0.2rem solid #ffc107;
+}
+.reviews .box-container .box .quote{
+    height: 22rem;
+    padding: 2.5rem 8rem;
+    
+}
+.reviews .box-container .box img{
+    height: 12rem;
+   margin: auto;
+}
+.reviews .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 2rem 0;
+    color: #ccc;
+}
+.reviews .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.reviews .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+.reviews .box-container .box .stars i{
+    color: #ffc107;
+    font-size: 1.7rem;
+}

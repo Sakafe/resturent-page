@@ -1,0 +1,43 @@
+section{
+    padding: 2rem 7%;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(90deg, rgb(0 0 0 /90%), rgb(68 68 68 /35%)),url(../../assets/images/resturent.jpg);
+    background-repeat: no-repeat;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h3{
+    text-transform: uppercase;
+    font-size: 6rem;
+    color: #fff;
+}
+.home span{
+    color: #ffc107;
+    text-transform: uppercase;
+}
+.home .content p{
+    font-size: 2rem;
+    line-height: 1.8;
+    font-weight: lighter;
+    padding: 1rem 0;
+    color: #eee;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    background: #ffc107;
+    padding:0.9rem 3rem;
+    border-radius: 3px;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    letter-spacing: 0.2rem;
+}

@@ -1,0 +1,45 @@
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: black;
+}
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align:center ;
+}
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.contact .row form .inputBox{
+    align-items: center;
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    border: 0.2rem solid #ffc107;
+    background: #13131a;
+}
+.contact .row form .inputBox span{
+    font-size: 2rem;
+    padding-left: 2rem;
+    color: #fff;
+}
+.contact .row form .inputBox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: none;
+    text-transform: none;
+}
+.contact .row form .btn{
+    background-color: #ffc107;
+}

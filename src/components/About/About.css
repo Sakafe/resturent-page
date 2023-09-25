@@ -1,0 +1,31 @@
+.bdr{
+    align-items: center;
+    width: 2rem;
+    color: chocolate;
+}
+
+.row{
+    display: flex;
+}
+.about .content h3{
+    text-transform: uppercase;
+    font-size: 6rem;
+    color: #fff;
+}
+.about .row{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.about .content p{
+        font-size: 2rem;
+        line-height: 1.8;
+        font-weight: lighter;
+        padding: 1rem 0;
+        color: #eee;
+    }
+.about .row .image img{
+    width: 100%;
+    border-radius: 10px;
+    height: 80%;
+}
